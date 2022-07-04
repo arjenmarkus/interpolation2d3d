@@ -1,9 +1,9 @@
 # Interpolation in 2D and 3D
 
-Interpolation in two and three dimensions based on the packages available at [netlib.org](httpL//netlib.org)
+Interpolation in two and three dimensions based on the packages available at [netlib.org](http://netlib.org)
 
 The packages srfpak, sphpak, qshep2d and qpshep3d implement an object-oriented interface to the interpolation
-packages by Robert Renka. The code as found on netlib has been modernised using the [https://www.fortran.uk/plusfortmanual/spag.html](spag program).
+packages by Robert Renka. The code as found on netlib has been modernised using the [spag program](https://www.fortran.uk/plusfortmanual/spag.html).
 Some further minor changes to the code have been introduced to avoid error messages about array-bound
 violations, due to the old-style FORTRAN 77 declaration "iadj(1)" and the like.
 
