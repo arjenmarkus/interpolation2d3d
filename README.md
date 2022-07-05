@@ -65,3 +65,19 @@ program example
     write(*,*) 'Area:              ', network%area()
 end program example
 ```
+
+# Licensing information
+
+I chose the "MIT license" for the code I wrote as an object-oriented interface. The code that does the actual
+work falls under the [ACM Software License Agreement]. The original source code has first been modified via the
+[spag program](https://www.fortran.uk/plusfortmanual/spag.html) and then manually to turn the code into
+modules. Some small additional changes were necessary because of old-style declarations that were not
+recognised by the spag program and routine names that conflicted with standard functions, notably INDEX.
+
+# Keywords
+
+These are the original keywords and classification for these packages according to the [GAMS website](https://gams.nist.gov/cgi-bin/serve.cgi/Class/E2b):
+
+Interpolation of scattered, non-gridded multivariate data
+
+Interpolation, Scattered data, Scattered data interpolation, Multivariate data
